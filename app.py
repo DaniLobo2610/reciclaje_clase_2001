@@ -13,7 +13,7 @@ st.write("ALBERTO DANIEL LOBO CHAVARRIA")
 IMG_SIZE=(224,224)
 MODEL_DIR=Path("Modelo_reciclaje_mobilnet")
 CLASS_PATH=MODEL_DIR/"waste_mobilnet.json"
-MODEL_PATHS=[MODEL_DIR/"waste_mobilnet.h5", MODELO_DIR/"waste_mobilnet.keras"]
+MODEL_PATHS=[MODEL_DIR/"waste_mobilnet.h5", MODEL_DIR/"waste_mobilnet.keras"]
 
 LABELS_ES = {
     "cardboard": "Cartón",
